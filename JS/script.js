@@ -36,7 +36,14 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('.btn_see-more').click(function () {
-    $('.hidden-item').appendTo('.last-item').hide().fadeIn(2000);
-    $('.btn_see-more').fadeOut();
-    }); 
+
+(function ($) {
+    $(document).ready(function () {
+
+        $('.btn_see-more').click(function () {
+        $('.hidden-item').removeClass('hidden-item');
+        $('.btn_see-more').fadeOut();
+        }); 
+
+});
+})(jQuery);

@@ -125,7 +125,7 @@ header .intro-text .skills {
 
 @media(min-width:1024px) {
     header {
-        background:#F7CC01 url("https://res.cloudinary.com/dasdezine/image/upload/v1458051926/hero_tab_xawhqo.jpg") no-repeat;
+        background:#F7CC01 url("/img/ponchik-ochki.jpg") no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -645,4 +645,8 @@ footer .footer-below {
 
   .hidden-item{
       display: none;
+  }
+
+  .red-ttl{
+      color: red;
   }
