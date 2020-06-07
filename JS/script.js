@@ -45,5 +45,10 @@ $('.navbar-collapse ul li a').click(function() {
         $('.btn_see-more').fadeOut();
         }); 
 
+        $(document).on('click', '.modal_btn', function(){
+            $('#small-modal').arcticmodal();
+    });
+
+
 });
 })(jQuery);
